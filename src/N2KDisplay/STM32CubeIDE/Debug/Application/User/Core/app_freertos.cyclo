@@ -1,0 +1,5 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/app_freertos.c:96:6:vApplicationMallocFailedHook	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/app_freertos.c:112:6:vApplicationIdleHook	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/app_freertos.c:127:6:vApplicationStackOverflowHook	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/app_freertos.c:140:6:MX_FREERTOS_Init	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/app_freertos.c:188:6:StartDefaultTask	1

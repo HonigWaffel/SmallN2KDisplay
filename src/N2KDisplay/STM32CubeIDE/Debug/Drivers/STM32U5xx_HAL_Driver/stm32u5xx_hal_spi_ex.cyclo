@@ -1,0 +1,6 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:75:19:HAL_SPIEx_FlushRxFifo	9
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:114:19:HAL_SPIEx_EnableLockConfiguration	4
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:163:19:HAL_SPIEx_ConfigureUnderrun	5
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:220:19:HAL_SPIEx_SetConfigAutonomousMode	3
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:263:19:HAL_SPIEx_GetConfigAutonomousMode	3
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c:297:19:HAL_SPIEx_ClearConfigAutonomousMode	3

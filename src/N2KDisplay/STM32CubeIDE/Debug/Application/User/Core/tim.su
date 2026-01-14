@@ -1,0 +1,9 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:33:6:MX_TIM3_Init	88	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:106:6:MX_TIM5_Init	48	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:150:6:MX_TIM6_Init	24	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:183:6:MX_TIM15_Init	120	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:254:6:HAL_TIM_PWM_MspInit	48	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:294:6:HAL_TIM_Base_MspInit	24	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:320:6:HAL_TIM_MspPostInit	48	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:389:6:HAL_TIM_PWM_MspDeInit	16	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/tim.c:425:6:HAL_TIM_Base_MspDeInit	16	static

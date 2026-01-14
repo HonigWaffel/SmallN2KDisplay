@@ -1,0 +1,7 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:75:6:MX_FDCAN1_Init	16	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:128:6:HAL_FDCAN_MspInit	272	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:172:6:HAL_FDCAN_MspDeInit	16	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:198:6:HAL_FDCAN_RxFifo0Callback	88	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:228:6:fdcan_vParserTask	24	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:275:13:fdcan_vScreenSel_Load	8	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/fdcan.c:288:6:fdcan_vScreenSel_Save	32	static

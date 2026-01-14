@@ -1,0 +1,7 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:37:6:MX_OCTOSPI1_Init	8
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:113:6:HAL_OSPI_MspInit	3
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:194:6:HAL_OSPI_MspDeInit	2
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:234:9:OSPI_DLYB_Enable	6
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:278:16:ospi_memory_reset	7
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:323:16:OSPI_NOR_EnterSOPIMode	8
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Core/Src/octospi.c:389:9:OSPI_NOR_EnableMemoryMappedMode	2

@@ -1,0 +1,623 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "BackGround",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedTarget",
+            "Y": 167,
+            "Width": 400,
+            "Height": 244,
+            "LockPosition": true,
+            "TextId": "__SingleUse_2ZKA",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DepthTarget",
+            "X": 400,
+            "Y": 167,
+            "Width": 400,
+            "Height": 244,
+            "LockPosition": true,
+            "TextId": "__SingleUse_DLKE",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedLabel",
+            "Width": 400,
+            "Height": 107,
+            "LockPosition": true,
+            "TextId": "__SingleUse_M3QQ",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DepthLabel",
+            "X": 400,
+            "Width": 400,
+            "Height": 107,
+            "LockPosition": true,
+            "TextId": "__SingleUse_5O7L",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 5,
+              "Green": 5,
+              "Blue": 5
+            },
+            "StartX": 400.0,
+            "EndX": 400.0,
+            "EndY": 480.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Speed_Unit",
+            "X": 200,
+            "Y": 82,
+            "Width": 200,
+            "Height": 85,
+            "LockPosition": true,
+            "TextId": "__SingleUse_J1VV",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Depth_Unit",
+            "X": 600,
+            "Y": 82,
+            "Width": 200,
+            "Height": 85,
+            "LockPosition": true,
+            "TextId": "__SingleUse_N0OY",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Change2Depth",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Depth"
+            }
+          },
+          {
+            "InteractionName": "Change2Speed",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Speed"
+            }
+          },
+          {
+            "InteractionName": "Change2Menu",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Depth",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "BackGround",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DepthTarget",
+            "X": 20,
+            "Y": 70,
+            "Width": 740,
+            "Height": 280,
+            "LockPosition": true,
+            "TextId": "__SingleUse_D4SB",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DepthLabel",
+            "Y": 350,
+            "Width": 460,
+            "Height": 130,
+            "LockPosition": true,
+            "TextId": "__SingleUse_B0WC",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Depth_Unit",
+            "X": 600,
+            "Y": 395,
+            "Width": 200,
+            "Height": 85,
+            "LockPosition": true,
+            "TextId": "__SingleUse_0NI3",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Change2Speed",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Speed"
+            }
+          },
+          {
+            "InteractionName": "Change2Screen1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Change2Menu",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Speed",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "BackGround",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedTarget",
+            "X": 20,
+            "Y": 70,
+            "Width": 740,
+            "Height": 280,
+            "LockPosition": true,
+            "TextId": "__SingleUse_6VLS",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedLabel",
+            "Y": 350,
+            "Width": 460,
+            "Height": 130,
+            "LockPosition": true,
+            "TextId": "__SingleUse_WFMR",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Speed_Unit",
+            "X": 600,
+            "Y": 395,
+            "Width": 200,
+            "Height": 85,
+            "LockPosition": true,
+            "TextId": "__SingleUse_ZLDF",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Change2Depth",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Depth"
+            }
+          },
+          {
+            "InteractionName": "Change2Screen1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Change2Menu",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Menu",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Background",
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MenuLabel_ll",
+            "Y": 404,
+            "Width": 200,
+            "Height": 76,
+            "LockPosition": true,
+            "TextId": "__SingleUse_X9QG",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MenuLabel_lm",
+            "X": 200,
+            "Y": 404,
+            "Width": 200,
+            "Height": 76,
+            "LockPosition": true,
+            "TextId": "__SingleUse_7ICR",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MenuLabel_rm",
+            "X": 400,
+            "Y": 404,
+            "Width": 200,
+            "Height": 76,
+            "LockPosition": true,
+            "TextId": "__SingleUse_DJKF",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "MenuLabel_rr",
+            "X": 600,
+            "Y": 404,
+            "Width": 200,
+            "Height": 76,
+            "LockPosition": true,
+            "TextId": "__SingleUse_H3BB",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Box",
+            "Name": "SpeedDepthBG",
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "Color": {
+              "Red": 204,
+              "Green": 196,
+              "Blue": 196
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "SpeedBG",
+            "Y": 80,
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "DepthBG",
+            "Y": 160,
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "Color": {
+              "Red": 204,
+              "Green": 196,
+              "Blue": 196
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpeedDepth",
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "TextId": "__SingleUse_ZBOY",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Speed",
+            "Y": 80,
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "TextId": "__SingleUse_BHQQ",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Depth",
+            "Y": 160,
+            "Width": 400,
+            "Height": 80,
+            "LockPosition": true,
+            "TextId": "__SingleUse_LEWC",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Shape",
+            "Name": "SpeedDepthArrow",
+            "X": 400,
+            "Width": 80,
+            "Height": 80,
+            "LockPosition": true,
+            "Points": [
+              {
+                "X": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 80.0
+              },
+              {
+                "Y": 40.0
+              }
+            ],
+            "XScale": 2.0,
+            "YScale": 1.0
+          },
+          {
+            "Type": "Shape",
+            "Name": "SpeedArrow",
+            "X": 400,
+            "Y": 80,
+            "Width": 80,
+            "Height": 80,
+            "Visible": false,
+            "LockPosition": true,
+            "Points": [
+              {
+                "X": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 80.0
+              },
+              {
+                "Y": 40.0
+              }
+            ],
+            "XScale": 2.0,
+            "YScale": 1.0
+          },
+          {
+            "Type": "Shape",
+            "Name": "DepthArrow",
+            "X": 400,
+            "Y": 160,
+            "Width": 80,
+            "Height": 80,
+            "Visible": false,
+            "LockPosition": true,
+            "Points": [
+              {
+                "X": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 40.0
+              },
+              {
+                "X": 40.0,
+                "Y": 80.0
+              },
+              {
+                "Y": 40.0
+              }
+            ],
+            "XScale": 2.0,
+            "YScale": 1.0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Change2Screen1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Change2Speed",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Speed"
+            }
+          },
+          {
+            "InteractionName": "Change2Depth",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Depth"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "N2KDisplay",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U599/5A9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../Riverdi_50STM32U5A9.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.23.2",
+  "CreatedBy": "4.23.2"
+}

@@ -1,0 +1,18 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:91:5:touchgfx::colortype::colortype(uint32_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp:404:25:static touchgfx::Unicode::UnicodeChar* touchgfx::Unicode::snprintfFloat(UnicodeChar*, uint16_t, const char*, float)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:62:10:void touchgfx::Box::setColor(touchgfx::colortype)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:79:10:void touchgfx::TextAreaWithOneWildcard::setWildcard1(const touchgfx::Unicode::UnicodeChar*)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:98:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const touchgfx::Unicode::UnicodeChar*)	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/depth_screen/DepthViewBase.hpp:22:26:FrontendApplication& DepthViewBase::application()	1
+../../TouchGFX/gui/include/gui/depth_screen/DepthView.hpp:11:13:DepthView::~DepthView()	1
+../../TouchGFX/gui/include/gui/depth_screen/DepthView.hpp:11:13:virtual DepthView::~DepthView()	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:6:1:DepthView::DepthView()	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:11:6:virtual void DepthView::setupScreen()	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:17:6:virtual void DepthView::tearDownScreen()	1
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:22:6:virtual void DepthView::updateDepth(float)	2
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:35:6:virtual void DepthView::setDarkMode(bool)	2
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/TouchGFX/gui/src/depth_screen/DepthView.cpp:61:6:virtual void DepthView::changeScreen(uint8_t)	6

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.2">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_LEWC" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">Depth</Translation>
+      </Text>
+      <Text Id="__SingleUse_BHQQ" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">Speed</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZBOY" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">Speed/Depth</Translation>
+      </Text>
+      <Text Id="__SingleUse_H3BB" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">BACK</Translation>
+      </Text>
+      <Text Id="__SingleUse_DJKF" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">UP</Translation>
+      </Text>
+      <Text Id="__SingleUse_7ICR" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">DOWN</Translation>
+      </Text>
+      <Text Id="__SingleUse_X9QG" Alignment="Center" TypographyId="Menu_Button">
+        <Translation Language="GB">OK</Translation>
+      </Text>
+      <Text Id="__SingleUse_0NI3" Alignment="Right" TypographyId="Unit_Lang">
+        <Translation Language="GB">m </Translation>
+      </Text>
+      <Text Id="__SingleUse_B0WC" Alignment="Left" TypographyId="Label_Big">
+        <Translation Language="GB"> Depth</Translation>
+      </Text>
+      <Text Id="__SingleUse_D4SB" Alignment="Right" TypographyId="Data_Big">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6VLS" Alignment="Right" TypographyId="Data_Big">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_WFMR" Alignment="Left" TypographyId="Label_Big">
+        <Translation Language="GB"> STW</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZLDF" Alignment="Right" TypographyId="Unit_Lang">
+        <Translation Language="GB">kn </Translation>
+      </Text>
+      <Text Id="__SingleUse_N0OY" Alignment="Right" TypographyId="Unit_Lang">
+        <Translation Language="GB">m</Translation>
+      </Text>
+      <Text Id="__SingleUse_J1VV" Alignment="Right" TypographyId="Unit_Lang">
+        <Translation Language="GB">kn</Translation>
+      </Text>
+      <Text Id="__SingleUse_5O7L" Alignment="Center" TypographyId="Label_Lang">
+        <Translation Language="GB">Depth</Translation>
+      </Text>
+      <Text Id="__SingleUse_M3QQ" Alignment="Center" TypographyId="Label_Lang">
+        <Translation Language="GB">STW</Translation>
+      </Text>
+      <Text Id="__SingleUse_DLKE" Alignment="Right" TypographyId="Data_Lang">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2ZKA" Alignment="Right" TypographyId="Data_Lang">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="abcdefghijklmnopqrstuvwxyz, -:;#+*)(/&amp;%$§&quot;!." WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Data_Lang" Font="verdana.ttf" Size="120" Bpp="8" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="abcdefghijklmnopqrstuvwxyz, -:;#+*)(/&amp;%$§&quot;!." WildcardCharacterRanges="0-9" />
+    <Typography Id="Label_Lang" Font="verdana.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Unit_Lang" Font="verdana.ttf" Size="70" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Data_Big" Font="verdana.ttf" Size="205" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="abcdefghijklmnopqrstuvwxyz, -:;#+*)(/&amp;%$§&quot;!." WildcardCharacterRanges="0-9" />
+    <Typography Id="Label_Big" Font="verdana.ttf" Size="100" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Menu_Button" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

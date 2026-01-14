@@ -1,0 +1,4 @@
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng_ex.c:85:19:HAL_RNGEx_SetConfig	32	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng_ex.c:184:19:HAL_RNGEx_GetConfig	24	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng_ex.c:235:19:HAL_RNGEx_LockConfig	24	static
+D:/Sandbox/SmallN2KDisplay/src/N2KDisplay/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng_ex.c:294:19:HAL_RNGEx_RecoverSeedError	24	static
