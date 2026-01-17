@@ -226,12 +226,17 @@ void gpio_vControlTask(void)
 	boMenuAct = false;
 	while(1)
 	{
+		// wait for a button
+		while(!((boBtn1) || (boBtn2) || (boBtn3) || (boBtn4)))
+		{
+		}
 		// go into the menu
 		if(((boBtn1) || (boBtn2) || (boBtn3) || (boBtn4)) && !boMenuAct)
 		{
 			boMenuAct = true;
 			u32OldScreen = fdcan_stSCREEN_SEL_RAM.u32SelScreen;
 			fdcan_stSCREEN_SEL_RAM.u32SelScreen = (uint32_t)fdcan_SEL_MENUS;
+			enSelArrow = u32OldScreen;
 		}
 		// arrow go up
 		else if(boBtn4 && boMenuAct)
@@ -255,7 +260,7 @@ void gpio_vControlTask(void)
 			}
 			enSelArrow++;
 
-			while(enSelArrow == fdcan_SEL_MENUS)
+			if(enSelArrow == fdcan_SEL_MENUS)
 			{
 				enSelArrow++;
 			}
@@ -275,7 +280,9 @@ void gpio_vControlTask(void)
 		else if(boBtn1 && boMenuAct)
 		{
 			fdcan_stSCREEN_SEL_RAM.u32SelScreen = u32OldScreen;
+			enSelArrow = u32OldScreen;
 			boMenuAct = false;
+			boMenuActive = true;
 		}
 		else
 		{
@@ -284,7 +291,7 @@ void gpio_vControlTask(void)
 		boBtn2 = false;
 		boBtn3 = false;
 		boBtn4 = false;
-		osDelay(50);
+		osDelay(100);
 	}
 }
 
@@ -311,6 +318,7 @@ void GPIO_vInterrupt_Function(uint16_t GPIO_Pin)
         default:
             break;
     }
+    //gpio_vControlTask();
 }
 
 /* USER CODE END 2 */

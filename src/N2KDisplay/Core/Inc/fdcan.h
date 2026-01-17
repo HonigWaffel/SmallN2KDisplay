@@ -55,7 +55,7 @@ typedef enum
 	fdcan_n2k_speed = 0,
 	fdcan_n2k_depth,
 	fdcan_n2k_nmode,
-	fdcan_n2k_quan
+	fdcan_n2k_quan     ///< last entry, never change!!
 }fdcan_enn2kDATA_t;
 
 typedef enum
