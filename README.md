@@ -97,6 +97,13 @@ Zusätzlich muss die Wildcard noch initialisiert werden. Dazu wird in die Funkti
 Zur Orientierung können die vorhandenen Module "Screen1", "Speed" und "Depth" verwendet werden.
 
 
+### Weiteres
+Dieses Projekt ist ein Unterprojekt von: \
+https://github.com/HonigWaffel/Mein_tolles_Bootsprojekt \
+
+Es kann jedoch auch vollkommen ohne das oben genannte Projekt verwendet werden.
+
+
 
 
 
