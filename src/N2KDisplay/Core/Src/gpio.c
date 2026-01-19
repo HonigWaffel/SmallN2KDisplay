@@ -226,10 +226,6 @@ void gpio_vControlTask(void)
 	boMenuAct = false;
 	while(1)
 	{
-		// wait for a button
-		while(!((boBtn1) || (boBtn2) || (boBtn3) || (boBtn4)))
-		{
-		}
 		// go into the menu
 		if(((boBtn1) || (boBtn2) || (boBtn3) || (boBtn4)) && !boMenuAct)
 		{
@@ -295,30 +291,50 @@ void gpio_vControlTask(void)
 	}
 }
 
+
+#define DEBOUNCE_TIME_MS 500
+static uint32_t u32lastBtnTime[4] = {0,0,0,0};
+
 void GPIO_vInterrupt_Function(uint16_t GPIO_Pin)
 {
+    uint32_t u32TimeNow = HAL_GetTick();
     switch (GPIO_Pin)
     {
         case BUTTON_1_Pin:
-        	boBtn1 = true;
+            if ((u32TimeNow - u32lastBtnTime[0]) > DEBOUNCE_TIME_MS)
+            {
+                boBtn1 = true;
+                u32lastBtnTime[0] = u32TimeNow;
+            }
             break;
 
         case BUTTON_2_Pin:
-             boBtn2 = true;
-             break;
+            if ((u32TimeNow - u32lastBtnTime[1]) > DEBOUNCE_TIME_MS)
+            {
+                boBtn2 = true;
+                u32lastBtnTime[1] = u32TimeNow;
+            }
+            break;
 
         case BUTTON_3_Pin:
-        	boBtn3 = true;
+            if ((u32TimeNow - u32lastBtnTime[2]) > DEBOUNCE_TIME_MS)
+            {
+                boBtn3 = true;
+                u32lastBtnTime[2] = u32TimeNow;
+            }
             break;
 
         case BUTTON_4_Pin:
-        	boBtn4 = true;
+            if ((u32TimeNow - u32lastBtnTime[3]) > DEBOUNCE_TIME_MS)
+            {
+                boBtn4 = true;
+                u32lastBtnTime[3] = u32TimeNow;
+            }
             break;
 
         default:
             break;
     }
-    //gpio_vControlTask();
 }
 
 /* USER CODE END 2 */
